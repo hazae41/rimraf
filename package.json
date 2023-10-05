@@ -27,7 +27,7 @@
     "typescript": "^5.2.2"
   },
   "bin": {
-    "rimraf": "./dist/index.js"
+    "rimraf": "./dist/index.mjs"
   },
   "keywords": [
     "rimraf",
