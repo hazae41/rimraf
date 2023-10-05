@@ -22,8 +22,7 @@
     "@hazae41/phobos": "^1.0.10",
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/node": "^20.8.2",
-    "rollup": "^3.29.4",
-    "rollup-plugin-node-externals": "^6.1.1",
+    "rollup": "^4.0.0",
     "tslib": "^2.6.2",
     "typescript": "^5.2.2"
   },

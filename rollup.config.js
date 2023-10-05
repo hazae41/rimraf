@@ -1,18 +1,18 @@
 import ts from "@rollup/plugin-typescript";
-import externals from "rollup-plugin-node-externals";
 
 export const config = [
   {
     input: "./src/index.ts",
     output: [{
       dir: "./dist",
-      format: "esm",
+      format: "cjs",
       exports: "named",
       preserveModules: true,
       sourcemap: false,
       entryFileNames: "[name].js",
-    },],
-    plugins: [externals(), ts()]
+    }],
+    plugins: [ts()],
+    external: ["fs"]
   }
 ]
 
