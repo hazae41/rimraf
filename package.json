@@ -2,7 +2,7 @@
   "type": "module",
   "name": "@hazae41/rimraf",
   "version": "1.0.0",
-  "description": "Supply-chain hardened rimraf",
+  "description": "Minimalist and supply-chain hardened rimraf",
   "homepage": "https://github.com/hazae41/rimraf",
   "repository": "github:hazae41/rimraf",
   "author": "hazae41",
