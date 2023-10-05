@@ -1,0 +1,40 @@
+{
+  "type": "module",
+  "name": "@hazae41/rimraf",
+  "version": "0.0.0",
+  "description": "Supply-chain hardened rimraf",
+  "homepage": "https://github.com/hazae41/rimraf",
+  "repository": "github:hazae41/rimraf",
+  "author": "hazae41",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && rollup -c",
+    "test": "node ./dist/test/index.test.mjs",
+    "bench": "node ./dist/bench/index.bench.mjs",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@hazae41/deimos": "^1.0.6",
+    "@hazae41/phobos": "^1.0.10",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/node": "^20.8.2",
+    "rollup": "^3.29.4",
+    "rollup-plugin-node-externals": "^6.1.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "bin": {
+    "rimraf": "./dist/index.js"
+  },
+  "keywords": [
+    "rimraf",
+    "typescript",
+    "esmodules",
+    "tested",
+    "unit-tested"
+  ]
+}
