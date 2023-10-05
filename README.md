@@ -18,5 +18,5 @@ npm i @hazae41/rimraf
 ## Usage
 
 ```bash
-rimraf <dir> [...dirs]
+rimraf [...dirs]
 ```
