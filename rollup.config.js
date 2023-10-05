@@ -9,7 +9,7 @@ export const config = [
       exports: "named",
       preserveModules: true,
       sourcemap: false,
-      entryFileNames: "[name].js",
+      entryFileNames: "[name].mjs",
     }],
     plugins: [ts()],
     external: ["fs"]
