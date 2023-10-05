@@ -5,7 +5,7 @@ export const config = [
     input: "./src/index.ts",
     output: [{
       dir: "./dist",
-      format: "cjs",
+      format: "esm",
       exports: "named",
       preserveModules: true,
       sourcemap: false,
