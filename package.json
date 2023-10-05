@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@hazae41/rimraf",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Supply-chain hardened rimraf",
   "homepage": "https://github.com/hazae41/rimraf",
   "repository": "github:hazae41/rimraf",
