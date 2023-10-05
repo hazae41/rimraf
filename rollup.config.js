@@ -1,4 +1,5 @@
 import ts from "@rollup/plugin-typescript";
+import externals from "rollup-plugin-node-externals";
 
 export const config = [
   {
@@ -11,8 +12,7 @@ export const config = [
       sourcemap: false,
       entryFileNames: "[name].mjs",
     }],
-    plugins: [ts()],
-    external: ["fs"]
+    plugins: [externals(), ts()],
   }
 ]
 
